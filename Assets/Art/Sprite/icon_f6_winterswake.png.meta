@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 3100479a67f15d14d8a092aa87302ded
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4584595974491577225
+    second: icon_f6_winterswake_0
+  - first:
+      213: -8972222354689672967
+    second: icon_f6_winterswake_1
+  - first:
+      213: 3335295067946230316
+    second: icon_f6_winterswake_2
+  - first:
+      213: 1612590607283868675
+    second: icon_f6_winterswake_3
+  - first:
+      213: 644029040027577437
+    second: icon_f6_winterswake_4
+  - first:
+      213: -3815997867772141948
+    second: icon_f6_winterswake_5
+  - first:
+      213: -2869777931031761591
+    second: icon_f6_winterswake_6
+  - first:
+      213: -265267994344899466
+    second: icon_f6_winterswake_7
+  - first:
+      213: 880320583488110661
+    second: icon_f6_winterswake_8
+  - first:
+      213: -8269779071842682419
+    second: icon_f6_winterswake_9
+  - first:
+      213: -8654199363904033532
+    second: icon_f6_winterswake_10
+  - first:
+      213: -5789050857875930569
+    second: icon_f6_winterswake_11
+  - first:
+      213: -2812310880551876556
+    second: icon_f6_winterswake_12
+  - first:
+      213: 4573274589636295257
+    second: icon_f6_winterswake_13
+  - first:
+      213: -8224943580334363684
+    second: icon_f6_winterswake_14
+  - first:
+      213: 7417480302535352649
+    second: icon_f6_winterswake_15
+  - first:
+      213: 7180545433077496551
+    second: icon_f6_winterswake_16
+  - first:
+      213: -3592183454199349362
+    second: icon_f6_winterswake_17
+  - first:
+      213: -6879310487693412194
+    second: icon_f6_winterswake_18
+  - first:
+      213: 1496429936526150263
+    second: icon_f6_winterswake_19
+  - first:
+      213: 1759509112585906401
+    second: icon_f6_winterswake_20
+  - first:
+      213: -7080445696822848645
+    second: icon_f6_winterswake_21
+  - first:
+      213: 3456762162463517219
+    second: icon_f6_winterswake_22
+  - first:
+      213: 5181744931962319775
+    second: icon_f6_winterswake_23
+  - first:
+      213: -1399914112549849391
+    second: icon_f6_winterswake_24
+  - first:
+      213: 5726684652909779433
+    second: icon_f6_winterswake_25
+  - first:
+      213: -8336517753185987376
+    second: icon_f6_winterswake_26
+  - first:
+      213: -8779452369715126529
+    second: icon_f6_winterswake_27
+  - first:
+      213: 2035357940102993666
+    second: icon_f6_winterswake_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: icon_f6_winterswake_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 215
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7746ebd504e3060c0800000000000000
+      internalID: -4584595974491577225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 215
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f837e62e434c7380800000000000000
+      internalID: -8972222354689672967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 215
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c222c027139594e20800000000000000
+      internalID: 3335295067946230316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 215
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304594b0d92116610800000000000000
+      internalID: 1612590607283868675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 215
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c21ebeffc00f800800000000000000
+      internalID: 644029040027577437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 215
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e1bc3482ada0bc0800000000000000
+      internalID: -3815997867772141948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 166
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94da89c2d208c28d0800000000000000
+      internalID: -2869777931031761591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 166
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cbac22a24915cf0800000000000000
+      internalID: -265267994344899466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 166
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540064318e6873c00800000000000000
+      internalID: 880320583488110661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_9
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 166
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc97bd3dfb7db3d80800000000000000
+      internalID: -8269779071842682419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 166
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40da61bc78b16e780800000000000000
+      internalID: -8654199363904033532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 166
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73282ad9ae829afa0800000000000000
+      internalID: -5789050857875930569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 117
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4384db6872aa8f8d0800000000000000
+      internalID: -2812310880551876556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 117
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a779f4209877f30800000000000000
+      internalID: 4573274589636295257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 117
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb6a8c24612bdd80800000000000000
+      internalID: -8224943580334363684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 117
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941a311290f20f660800000000000000
+      internalID: 7417480302535352649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_16
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 117
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea3328f60c66a360800000000000000
+      internalID: 7180545433077496551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 117
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f796c3e20062ec0800000000000000
+      internalID: -3592183454199349362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e983a614f87c780a0800000000000000
+      internalID: -6879310487693412194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 68
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ac6ed491364c410800000000000000
+      internalID: 1496429936526150263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 68
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8eeb237380b6810800000000000000
+      internalID: 1759509112585906401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_21
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 68
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b735e6d07243dbd90800000000000000
+      internalID: -7080445696822848645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 68
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a26ae3fd2e8ff20800000000000000
+      internalID: 3456762162463517219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 68
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f937b42cf8149e740800000000000000
+      internalID: 5181744931962319775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 19
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6f86d1881829ce0800000000000000
+      internalID: -1399914112549849391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_25
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 18
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e95e5db955497f40800000000000000
+      internalID: 5726684652909779433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 19
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d49c91b54dbe4c80800000000000000
+      internalID: -8336517753185987376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_27
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 19
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe1ba4d59e192680800000000000000
+      internalID: -8779452369715126529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_f6_winterswake_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 19
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2071c92434b0f3c10800000000000000
+      internalID: 2035357940102993666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      icon_f6_winterswake_0: -4584595974491577225
+      icon_f6_winterswake_1: -8972222354689672967
+      icon_f6_winterswake_10: -8654199363904033532
+      icon_f6_winterswake_11: -5789050857875930569
+      icon_f6_winterswake_12: -2812310880551876556
+      icon_f6_winterswake_13: 4573274589636295257
+      icon_f6_winterswake_14: -8224943580334363684
+      icon_f6_winterswake_15: 7417480302535352649
+      icon_f6_winterswake_16: 7180545433077496551
+      icon_f6_winterswake_17: -3592183454199349362
+      icon_f6_winterswake_18: -6879310487693412194
+      icon_f6_winterswake_19: 1496429936526150263
+      icon_f6_winterswake_2: 3335295067946230316
+      icon_f6_winterswake_20: 1759509112585906401
+      icon_f6_winterswake_21: -7080445696822848645
+      icon_f6_winterswake_22: 3456762162463517219
+      icon_f6_winterswake_23: 5181744931962319775
+      icon_f6_winterswake_24: -1399914112549849391
+      icon_f6_winterswake_25: 5726684652909779433
+      icon_f6_winterswake_26: -8336517753185987376
+      icon_f6_winterswake_27: -8779452369715126529
+      icon_f6_winterswake_28: 2035357940102993666
+      icon_f6_winterswake_3: 1612590607283868675
+      icon_f6_winterswake_4: 644029040027577437
+      icon_f6_winterswake_5: -3815997867772141948
+      icon_f6_winterswake_6: -2869777931031761591
+      icon_f6_winterswake_7: -265267994344899466
+      icon_f6_winterswake_8: 880320583488110661
+      icon_f6_winterswake_9: -8269779071842682419
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1807 @@
+fileFormatVersion: 2
+guid: c6571fdbfeb4bdc4783224763c7c0541
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3185483912622584743
+    second: f5_gibblegup_0
+  - first:
+      213: -2825569697241695859
+    second: f5_gibblegup_1
+  - first:
+      213: 9033796477536861543
+    second: f5_gibblegup_2
+  - first:
+      213: -5605874962876372038
+    second: f5_gibblegup_3
+  - first:
+      213: 8193189406132769800
+    second: f5_gibblegup_4
+  - first:
+      213: -8409981859153010263
+    second: f5_gibblegup_5
+  - first:
+      213: -5266482034855702881
+    second: f5_gibblegup_6
+  - first:
+      213: 3072110737898911618
+    second: f5_gibblegup_7
+  - first:
+      213: -777811336987634426
+    second: f5_gibblegup_8
+  - first:
+      213: 7958790500603229859
+    second: f5_gibblegup_9
+  - first:
+      213: -1055735747118750133
+    second: f5_gibblegup_10
+  - first:
+      213: -8765074628435059406
+    second: f5_gibblegup_11
+  - first:
+      213: 1852084875760814133
+    second: f5_gibblegup_12
+  - first:
+      213: 1675816393066774137
+    second: f5_gibblegup_13
+  - first:
+      213: 2676610245831691635
+    second: f5_gibblegup_14
+  - first:
+      213: 8923130585618101795
+    second: f5_gibblegup_15
+  - first:
+      213: 6430013960690940642
+    second: f5_gibblegup_16
+  - first:
+      213: -663364616589130759
+    second: f5_gibblegup_17
+  - first:
+      213: -7615159886711317897
+    second: f5_gibblegup_18
+  - first:
+      213: 2305578555458730865
+    second: f5_gibblegup_19
+  - first:
+      213: 2042767657497013078
+    second: f5_gibblegup_20
+  - first:
+      213: -5519300212641629181
+    second: f5_gibblegup_21
+  - first:
+      213: 5813205987733692412
+    second: f5_gibblegup_22
+  - first:
+      213: 63435642507572337
+    second: f5_gibblegup_23
+  - first:
+      213: -559723552998049089
+    second: f5_gibblegup_24
+  - first:
+      213: 3453450480283753886
+    second: f5_gibblegup_25
+  - first:
+      213: -1645339349500193951
+    second: f5_gibblegup_26
+  - first:
+      213: -7498490318285527521
+    second: f5_gibblegup_27
+  - first:
+      213: 4002763296614147076
+    second: f5_gibblegup_28
+  - first:
+      213: 2236978840237277415
+    second: f5_gibblegup_29
+  - first:
+      213: 4134110738070906003
+    second: f5_gibblegup_30
+  - first:
+      213: 1588295817734452180
+    second: f5_gibblegup_31
+  - first:
+      213: -7345604389353318558
+    second: f5_gibblegup_32
+  - first:
+      213: -5772900772185334687
+    second: f5_gibblegup_33
+  - first:
+      213: -8306731536410951309
+    second: f5_gibblegup_34
+  - first:
+      213: -1904521875450893192
+    second: f5_gibblegup_35
+  - first:
+      213: 730770916741673892
+    second: f5_gibblegup_36
+  - first:
+      213: -5993647417403885539
+    second: f5_gibblegup_37
+  - first:
+      213: 2265442772663023953
+    second: f5_gibblegup_38
+  - first:
+      213: 8947480389118738296
+    second: f5_gibblegup_39
+  - first:
+      213: -7895550837170335184
+    second: f5_gibblegup_40
+  - first:
+      213: 6357448475158569278
+    second: f5_gibblegup_41
+  - first:
+      213: 6560143474522566123
+    second: f5_gibblegup_42
+  - first:
+      213: 8076577660961383753
+    second: f5_gibblegup_43
+  - first:
+      213: 560049763873995655
+    second: f5_gibblegup_44
+  - first:
+      213: 2061629881748102372
+    second: f5_gibblegup_45
+  - first:
+      213: -7643139571413882517
+    second: f5_gibblegup_46
+  - first:
+      213: 4273244463395530752
+    second: f5_gibblegup_47
+  - first:
+      213: -7985583281556141936
+    second: f5_gibblegup_48
+  - first:
+      213: 3875597334566264152
+    second: f5_gibblegup_49
+  - first:
+      213: -8411008338414731407
+    second: f5_gibblegup_50
+  - first:
+      213: 5400350797541746699
+    second: f5_gibblegup_51
+  - first:
+      213: -469794477902063679
+    second: f5_gibblegup_52
+  - first:
+      213: -4167206957165000310
+    second: f5_gibblegup_53
+  - first:
+      213: 5205893528008734260
+    second: f5_gibblegup_54
+  - first:
+      213: 7480799251467962793
+    second: f5_gibblegup_55
+  - first:
+      213: -1167278709876771190
+    second: f5_gibblegup_56
+  - first:
+      213: 7849912212137753107
+    second: f5_gibblegup_57
+  - first:
+      213: 8533745054486031749
+    second: f5_gibblegup_58
+  - first:
+      213: 8011677096462785635
+    second: f5_gibblegup_59
+  - first:
+      213: 8074074072603196285
+    second: f5_gibblegup_60
+  - first:
+      213: -3501779875870044937
+    second: f5_gibblegup_61
+  - first:
+      213: -3025374372656902452
+    second: f5_gibblegup_62
+  - first:
+      213: 3301635619958071534
+    second: f5_gibblegup_63
+  - first:
+      213: -7533366939709264949
+    second: f5_gibblegup_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: f5_gibblegup_0
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1010
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a33799bdbc153c20800000000000000
+      internalID: 3185483912622584743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_1
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1015
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89fcc3b45f89c8d0800000000000000
+      internalID: -2825569697241695859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1010
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d72c0880e7e5d70800000000000000
+      internalID: 9033796477536861543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 941
+        width: 72
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb6f762c6ee332b0800000000000000
+      internalID: -5605874962876372038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 938
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80499020b5e04b170800000000000000
+      internalID: 8193189406132769800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_5
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 938
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1a4bd9e0eb94b80800000000000000
+      internalID: -8409981859153010263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 938
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e03780e72b9e6b0800000000000000
+      internalID: -5266482034855702881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_7
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 938
+        width: 59
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287b02b707452aa20800000000000000
+      internalID: 3072110737898911618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_8
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 930
+        width: 71
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6059494c5b8a435f0800000000000000
+      internalID: -777811336987634426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 840
+        width: 72
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a67536facd437e60800000000000000
+      internalID: 7958790500603229859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_10
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 837
+        width: 70
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b462e487ee54951f0800000000000000
+      internalID: -1055735747118750133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 837
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23dd65690133c5680800000000000000
+      internalID: -8765074628435059406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_12
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 837
+        width: 66
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538c899b16de3b910800000000000000
+      internalID: 1852084875760814133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_13
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 837
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e75817122b14710800000000000000
+      internalID: 1675816393066774137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_14
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 830
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d08f856da352520800000000000000
+      internalID: 2676610245831691635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 737
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326b038adf355db70800000000000000
+      internalID: 8923130585618101795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_16
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 736
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea39cb21affb3950800000000000000
+      internalID: 6430013960690940642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_17
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 738
+        width: 69
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f344a755614bc6f0800000000000000
+      internalID: -663364616589130759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_18
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 736
+        width: 62
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a94cc0e64815690800000000000000
+      internalID: -7615159886711317897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_19
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 736
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b30ef0b7f0fff10800000000000000
+      internalID: 2305578555458730865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_20
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 751
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b24c78c5e595c10800000000000000
+      internalID: 2042767657497013078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 636
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cf1c8f2b18763b0800000000000000
+      internalID: -5519300212641629181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 635
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff5a01db08aca050800000000000000
+      internalID: 5813205987733692412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_23
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 637
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17433c9716e51e000800000000000000
+      internalID: 63435642507572337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_24
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 657
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbab123e4667b38f0800000000000000
+      internalID: -559723552998049089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_25
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 635
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d17b62aee1def20800000000000000
+      internalID: 3453450480283753886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_26
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 648
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163911a34949a29e0800000000000000
+      internalID: -1645339349500193951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_27
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 637
+        width: 69
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16a2e2c8c200f790800000000000000
+      internalID: -7498490318285527521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 535
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40468aeb20cac8730800000000000000
+      internalID: 4002763296614147076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 534
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0886637685b0f10800000000000000
+      internalID: 2236978840237277415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_30
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 536
+        width: 71
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39428d410df4f5930800000000000000
+      internalID: 4134110738070906003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_31
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 537
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3fc4e81a2ca0610800000000000000
+      internalID: 1588295817734452180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_32
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 541
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2679b000abb2f0a90800000000000000
+      internalID: -7345604389353318558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_33
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 530
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c9056755982efa0800000000000000
+      internalID: -5772900772185334687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_34
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 534
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371c0b7bdaf88bc80800000000000000
+      internalID: -8306731536410951309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_35
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 436
+        width: 71
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ce9c2e177c195e0800000000000000
+      internalID: -1904521875450893192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_36
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 433
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3f298e648342a00800000000000000
+      internalID: 730770916741673892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_37
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 434
+        width: 71
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1834b8fd6942dca0800000000000000
+      internalID: -5993647417403885539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_38
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 433
+        width: 58
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1593e8be238707f10800000000000000
+      internalID: 2265442772663023953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_39
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 425
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f32341206db2c70800000000000000
+      internalID: 8947480389118738296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_40
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 446
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0329c64985e5d6290800000000000000
+      internalID: -7895550837170335184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_41
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 435
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31eca774b13a3850800000000000000
+      internalID: 6357448475158569278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_42
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 332
+        width: 60
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beda382abbf4a0b50800000000000000
+      internalID: 6560143474522566123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_43
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 332
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94565725794c51070800000000000000
+      internalID: 8076577660961383753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 333
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b30400b42b5c700800000000000000
+      internalID: 560049763873995655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_45
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 332
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec1de754716c9c10800000000000000
+      internalID: 2061629881748102372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_46
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 363
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69e42d0e0d1ee590800000000000000
+      internalID: -7643139571413882517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_47
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 323
+        width: 55
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0086817e23d9d4b30800000000000000
+      internalID: 4273244463395530752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 231
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0984c8a90528d2190800000000000000
+      internalID: -7985583281556141936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_49
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 231
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dd543fd33e8c530800000000000000
+      internalID: 3875597334566264152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_50
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 231
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ff0f9ca78164b80800000000000000
+      internalID: -8411008338414731407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_51
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 231
+        width: 58
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0829f52076e1fa40800000000000000
+      internalID: 5400350797541746699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_52
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 243
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c715335964fa79f0800000000000000
+      internalID: -469794477902063679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_53
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 222
+        width: 75
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89c4ace95b1b26c0800000000000000
+      internalID: -4167206957165000310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_54
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 130
+        width: 65
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436377be49c0f3840800000000000000
+      internalID: 5205893528008734260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 130
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a981c3c84321d760800000000000000
+      internalID: 7480799251467962793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_56
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 131
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a863be7a23efccfe0800000000000000
+      internalID: -1167278709876771190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_57
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 130
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ab87af09d70fc60800000000000000
+      internalID: 7849912212137753107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_58
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 130
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58de260d9e3fd6670800000000000000
+      internalID: 8533745054486031749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_59
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 126
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c1ccd1fd13f2f60800000000000000
+      internalID: 8011677096462785635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 29
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b74bb379fdc0070800000000000000
+      internalID: 8074074072603196285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_61
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 29
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc872191cd276fc0800000000000000
+      internalID: -3501779875870044937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_62
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 29
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce07358906b306d0800000000000000
+      internalID: -3025374372656902452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_63
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 29
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0a0618a14c1dd20800000000000000
+      internalID: 3301635619958071534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_gibblegup_64
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 23
+        width: 73
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb25fb8eaa147790800000000000000
+      internalID: -7533366939709264949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      f5_gibblegup_0: 3185483912622584743
+      f5_gibblegup_1: -2825569697241695859
+      f5_gibblegup_10: -1055735747118750133
+      f5_gibblegup_11: -8765074628435059406
+      f5_gibblegup_12: 1852084875760814133
+      f5_gibblegup_13: 1675816393066774137
+      f5_gibblegup_14: 2676610245831691635
+      f5_gibblegup_15: 8923130585618101795
+      f5_gibblegup_16: 6430013960690940642
+      f5_gibblegup_17: -663364616589130759
+      f5_gibblegup_18: -7615159886711317897
+      f5_gibblegup_19: 2305578555458730865
+      f5_gibblegup_2: 9033796477536861543
+      f5_gibblegup_20: 2042767657497013078
+      f5_gibblegup_21: -5519300212641629181
+      f5_gibblegup_22: 5813205987733692412
+      f5_gibblegup_23: 63435642507572337
+      f5_gibblegup_24: -559723552998049089
+      f5_gibblegup_25: 3453450480283753886
+      f5_gibblegup_26: -1645339349500193951
+      f5_gibblegup_27: -7498490318285527521
+      f5_gibblegup_28: 4002763296614147076
+      f5_gibblegup_29: 2236978840237277415
+      f5_gibblegup_3: -5605874962876372038
+      f5_gibblegup_30: 4134110738070906003
+      f5_gibblegup_31: 1588295817734452180
+      f5_gibblegup_32: -7345604389353318558
+      f5_gibblegup_33: -5772900772185334687
+      f5_gibblegup_34: -8306731536410951309
+      f5_gibblegup_35: -1904521875450893192
+      f5_gibblegup_36: 730770916741673892
+      f5_gibblegup_37: -5993647417403885539
+      f5_gibblegup_38: 2265442772663023953
+      f5_gibblegup_39: 8947480389118738296
+      f5_gibblegup_4: 8193189406132769800
+      f5_gibblegup_40: -7895550837170335184
+      f5_gibblegup_41: 6357448475158569278
+      f5_gibblegup_42: 6560143474522566123
+      f5_gibblegup_43: 8076577660961383753
+      f5_gibblegup_44: 560049763873995655
+      f5_gibblegup_45: 2061629881748102372
+      f5_gibblegup_46: -7643139571413882517
+      f5_gibblegup_47: 4273244463395530752
+      f5_gibblegup_48: -7985583281556141936
+      f5_gibblegup_49: 3875597334566264152
+      f5_gibblegup_5: -8409981859153010263
+      f5_gibblegup_50: -8411008338414731407
+      f5_gibblegup_51: 5400350797541746699
+      f5_gibblegup_52: -469794477902063679
+      f5_gibblegup_53: -4167206957165000310
+      f5_gibblegup_54: 5205893528008734260
+      f5_gibblegup_55: 7480799251467962793
+      f5_gibblegup_56: -1167278709876771190
+      f5_gibblegup_57: 7849912212137753107
+      f5_gibblegup_58: 8533745054486031749
+      f5_gibblegup_59: 8011677096462785635
+      f5_gibblegup_6: -5266482034855702881
+      f5_gibblegup_60: 8074074072603196285
+      f5_gibblegup_61: -3501779875870044937
+      f5_gibblegup_62: -3025374372656902452
+      f5_gibblegup_63: 3301635619958071534
+      f5_gibblegup_64: -7533366939709264949
+      f5_gibblegup_7: 3072110737898911618
+      f5_gibblegup_8: -777811336987634426
+      f5_gibblegup_9: 7958790500603229859
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
