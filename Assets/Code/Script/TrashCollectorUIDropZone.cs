@@ -7,6 +7,7 @@ public class TrashCollectorUIDropZone : MonoBehaviour, IDropHandler
     public TrashCategory acceptedCategory;
 
     public Image binImage;
+    public LevelManager levelManager;
 
     public Sprite organicBin;
     public Sprite anorganicBin;
@@ -54,9 +55,14 @@ public class TrashCollectorUIDropZone : MonoBehaviour, IDropHandler
                     Debug.Log("Sampah benar");
                     InventoryUI.Instance.inventory.Remove(draggedSlot.item);
                     InventoryUI.Instance.UpdateUI();
+                    if(draggedSlot.item.category != TrashCategory.Key)
+                    {
+                        levelManager.RegisterSortedTrash();
+                    }
                     if(draggedSlot.item.category == TrashCategory.Key && acceptedCategory == TrashCategory.Key)
                     {
                         MinigameController.Instance.GateKeyProgress();
+                        InventoryUI.Instance.ToggleInventory();
                     }
                 }
                 else

@@ -26,11 +26,14 @@ MonoBehaviour:
     m_path: Assets/Scenes/MainMenu.unity
     m_guid: b807b434266de6e4cabd1726b38b4755
   - m_enabled: 1
-    m_path: Assets/Scenes/Level Panel.unity
-    m_guid: daf9b8c6c4b993440955e141a9dee8ab
+    m_path: Assets/Scenes/Game_Intro.unity
+    m_guid: 63ecb97060c9d774ba6cd2ed05731f34
   - m_enabled: 1
     m_path: Assets/Scenes/Level_Tutorial.unity
     m_guid: 99b636e21f38fc64db83fdc43eb1f7c9
+  - m_enabled: 1
+    m_path: Assets/Scenes/Level_Panel.unity
+    m_guid: daf9b8c6c4b993440955e141a9dee8ab
   - m_enabled: 1
     m_path: Assets/Scenes/Level1_1.unity
     m_guid: 8c9cfa26abfee488c85f1582747f6a02
