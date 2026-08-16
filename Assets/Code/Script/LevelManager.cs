@@ -15,14 +15,17 @@ public class LevelManager : MonoBehaviour
     public int totalTrashInLevel;
     private int currentTrashSorted = 0;
 
-    private float levelTimer = 300f;
+    public float levelTimer = 300f;
+    private float currentTime;
     private bool isTimerRunning = false;
 
     [Header("UI")]
     public GameObject victoryUI;
+    public GameObject gameOverUI;
 
     void Start()
     {
+        currentTime = levelTimer;
         totalTrashInLevel = GameObject.FindGameObjectsWithTag("Trash").Length;
         isTimerRunning = true;
     }
@@ -31,9 +34,13 @@ public class LevelManager : MonoBehaviour
     {
         if (isTimerRunning)
         {
-            levelTimer -= Time.deltaTime;
+            currentTime -= Time.deltaTime;
         }
-        timerText.text = levelTimer.ToString("F1") + "s";
+        timerText.text = currentTime.ToString("F1") + "s";
+        if (currentTime < 0f)
+        {
+            GameOver();
+        }
     }
 
     public void RegisterSortedTrash()
@@ -59,18 +66,28 @@ public class LevelManager : MonoBehaviour
         if (victoryUI != null)
         {
             victoryUI.SetActive(true);
+            for(int i = 0; i < earnedStars; i++)
+            {
+                victoryUI.transform.GetChild(i).gameObject.SetActive(true);
+            }
         }
         //Time.timeScale = 0f;
         // TO DO : musik, tampilan menang dan skor bintang
     }
+    private void GameOver()
+    {
+        gameOverUI.SetActive(true);
+        Time.timeScale = 0f;
+    }
 
     private int CalculateStars()
     {
-        if (levelTimer <= timeForThreeStars)
+        float timeSpent = levelTimer - currentTime;
+        if (timeSpent <= timeForThreeStars)
         {
             return 3;
         }
-        else if (levelTimer <= timeForTwoStars)
+        else if (timeSpent <= timeForTwoStars)
         {
             return 2;
         }
