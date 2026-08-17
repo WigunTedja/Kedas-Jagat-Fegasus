@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f3d662dca30a9b46a9e63512e30f246, type: 3}
   m_Name: NewDialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
-  lines: []
+  lines:
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Surya najis
+  - speaker: {fileID: 11400000, guid: ad0ab1ebc40b41b4192e674dea27bd6f, type: 2}
+    text: Saya akan lawan
+  - speaker: {fileID: 0}
+    text: 
+  - speaker: {fileID: 0}
+    text: 
+  - speaker: {fileID: 0}
+    text: 
