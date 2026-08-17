@@ -1,18 +1,53 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Playables;
 
 public class TimelineDialogueTrigger : MonoBehaviour
 {
-    [Header("Timeline")]
-    [SerializeField]
-    private PlayableDirector director;
-
     [Header("Dialogue")]
     [SerializeField]
     private DialogueSO dialogue;
 
-    private bool waitingForDialogue;
+    [Header("Auto Start")]
+    [Tooltip("Jika aktif, dialogue akan otomatis muncul ketika scene dimulai.")]
+    [SerializeField]
+    private bool playOnSceneStart = false;
 
+    [Tooltip("Delay sebelum dialogue otomatis dimulai.")]
+    [SerializeField]
+    private float startDelay = 0f;
+
+    [Header("Timeline")]
+    [Tooltip("Boleh dikosongkan jika dialogue tidak berhubungan dengan Timeline.")]
+    [SerializeField]
+    private PlayableDirector director;
+
+    [Tooltip("Pause Timeline selama dialogue berlangsung.")]
+    [SerializeField]
+    private bool pauseTimelineDuringDialogue = true;
+
+    private bool waitingForDialogue = false;
+
+    private void Start()
+    {
+        // Hanya otomatis jika pilihan ini diaktifkan.
+        if (playOnSceneStart)
+        {
+            StartCoroutine(StartDialogueWithDelay());
+        }
+    }
+
+    private IEnumerator StartDialogueWithDelay()
+    {
+        if (startDelay > 0f)
+        {
+            yield return new WaitForSecondsRealtime(startDelay);
+        }
+
+        PlayDialogue();
+    }
+
+    // Fungsi ini tetap bisa dipanggil dari Timeline Signal.
     public void PlayDialogue()
     {
         if (waitingForDialogue)
@@ -21,7 +56,7 @@ public class TimelineDialogueTrigger : MonoBehaviour
         if (dialogue == null)
         {
             Debug.LogWarning(
-                "Dialogue belum dimasukkan."
+                $"Dialogue belum dipasang pada {gameObject.name}."
             );
 
             return;
@@ -30,7 +65,17 @@ public class TimelineDialogueTrigger : MonoBehaviour
         if (DialogueManager.Instance == null)
         {
             Debug.LogError(
-                "DialogueManager tidak ditemukan."
+                "DialogueManager tidak ditemukan di Scene."
+            );
+
+            return;
+        }
+
+        // Jangan mulai dialogue baru jika sedang ada dialogue.
+        if (DialogueManager.Instance.IsDialogueActive)
+        {
+            Debug.LogWarning(
+                "Dialogue lain sedang berjalan."
             );
 
             return;
@@ -38,34 +83,30 @@ public class TimelineDialogueTrigger : MonoBehaviour
 
         waitingForDialogue = true;
 
-        // Pause cutscene.
-        if (director != null)
+        // Pause Timeline jika memang menggunakan Timeline.
+        if (pauseTimelineDuringDialogue && director != null)
         {
             director.Pause();
         }
 
-        // Dengarkan ketika dialogue selesai.
         DialogueManager.Instance.OnDialogueFinished +=
-            ContinueTimeline;
+            HandleDialogueFinished;
 
-        // Jalankan dialogue.
-        DialogueManager.Instance.StartDialogue(
-            dialogue
-        );
+        DialogueManager.Instance.StartDialogue(dialogue);
     }
 
-    private void ContinueTimeline()
+    private void HandleDialogueFinished()
     {
         if (DialogueManager.Instance != null)
         {
             DialogueManager.Instance.OnDialogueFinished -=
-                ContinueTimeline;
+                HandleDialogueFinished;
         }
 
         waitingForDialogue = false;
 
-        // Lanjutkan cutscene.
-        if (director != null)
+        // Lanjutkan Timeline.
+        if (pauseTimelineDuringDialogue && director != null)
         {
             director.Play();
         }
@@ -76,7 +117,9 @@ public class TimelineDialogueTrigger : MonoBehaviour
         if (DialogueManager.Instance != null)
         {
             DialogueManager.Instance.OnDialogueFinished -=
-                ContinueTimeline;
+                HandleDialogueFinished;
         }
+
+        waitingForDialogue = false;
     }
 }
