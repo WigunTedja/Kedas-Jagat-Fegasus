@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d08a01a555c0744ac95f9331522349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TimelineDialogueTrigger
-  dialogue: {fileID: 11400000, guid: 3c85f55c14404084ab08c5dc56dca232, type: 2}
+  dialogue: {fileID: 11400000, guid: a2d6ae6c653f7c34b8113084b3f6e805, type: 2}
   playOnSceneStart: 1
   startDelay: 1
   director: {fileID: 0}
