@@ -31,10 +31,10 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/Level_Tutorial.unity
     m_guid: 99b636e21f38fc64db83fdc43eb1f7c9
-  - m_enabled: 0
+  - m_enabled: 1
     m_path: Assets/Scenes/Level_Panel.unity
     m_guid: daf9b8c6c4b993440955e141a9dee8ab
-  - m_enabled: 0
+  - m_enabled: 1
     m_path: Assets/Scenes/Level_1.unity
     m_guid: 8c9cfa26abfee488c85f1582747f6a02
   m_HasScriptingDefines: 0

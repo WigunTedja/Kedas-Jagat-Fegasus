@@ -4359,6 +4359,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SlotPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1884425628919544527, guid: ce7cef98023cc1c4dbd4c0437f0bf82d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8533799451738913811, guid: 67c8ca507f3181c419bbeaf6205ef43e, type: 3}
+    - target: {fileID: 5431417539174545739, guid: ce7cef98023cc1c4dbd4c0437f0bf82d, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8143519090420333456, guid: ce7cef98023cc1c4dbd4c0437f0bf82d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4385,11 +4393,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8143519090420333456, guid: ce7cef98023cc1c4dbd4c0437f0bf82d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 72.1
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 8143519090420333456, guid: ce7cef98023cc1c4dbd4c0437f0bf82d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 30
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 8143519090420333456, guid: ce7cef98023cc1c4dbd4c0437f0bf82d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4421,11 +4429,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8143519090420333456, guid: ce7cef98023cc1c4dbd4c0437f0bf82d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -566.8
+      value: -525
       objectReference: {fileID: 0}
     - target: {fileID: 8143519090420333456, guid: ce7cef98023cc1c4dbd4c0437f0bf82d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 182.2
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 8143519090420333456, guid: ce7cef98023cc1c4dbd4c0437f0bf82d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4459,23 +4467,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2300850977957316938, guid: f76d9880667d16e43889fa0ef477efa8, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 462.4
+      value: 360
       objectReference: {fileID: 0}
     - target: {fileID: 2300850977957316938, guid: f76d9880667d16e43889fa0ef477efa8, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 212.8
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300850977957316938, guid: f76d9880667d16e43889fa0ef477efa8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300850977957316938, guid: f76d9880667d16e43889fa0ef477efa8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.8
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726123330034292392, guid: f76d9880667d16e43889fa0ef477efa8, type: 3}
+      propertyPath: m_Spacing.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726123330034292392, guid: f76d9880667d16e43889fa0ef477efa8, type: 3}
+      propertyPath: m_Spacing.y
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4726123330034292392, guid: f76d9880667d16e43889fa0ef477efa8, type: 3}
       propertyPath: m_CellSize.x
-      value: 30
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 4726123330034292392, guid: f76d9880667d16e43889fa0ef477efa8, type: 3}
       propertyPath: m_CellSize.y
-      value: 30
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 5076527978088768756, guid: f76d9880667d16e43889fa0ef477efa8, type: 3}
       propertyPath: m_Pivot.x
@@ -4569,6 +4589,10 @@ PrefabInstance:
       propertyPath: trashCollectorDropZoneUI
       value: 
       objectReference: {fileID: 2584124025997717058}
+    - target: {fileID: 6931080337920154542, guid: f76d9880667d16e43889fa0ef477efa8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6415490079858998490, guid: de0ee40d7c8a57144ba1a2fdaa6f9f4c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

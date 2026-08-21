@@ -3,14 +3,17 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private bool isFacingRight = true;
     public float MoveSpeed = 5f;
     private Vector2 Movement;
     private Rigidbody2D rb;
+    private SpriteRenderer sr;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         //rb.interpolation();
     }
 
@@ -32,11 +35,27 @@ public class PlayerMovement : MonoBehaviour
         Movement.y = MoveY * MoveSpeed * Time.deltaTime;
 
         Movement = new Vector2(Movement.x, Movement.y).normalized;
+        if (Movement.x > 0 )
+            //Flip();
+            sr.flipX = false;
+        else if (Movement.x < 0)
+            //Flip();
+            sr.flipX = true;
         //rb.linearVelocity = Movement;
         //rb.MovePosition(Movement);// = Movement;
     }
     private void FixedUpdate()
     {
         rb.linearVelocity = Movement * MoveSpeed;
+
+    }
+
+    private void Flip()
+    {
+
+        //Vector3 theScale = transform.localScale;
+        //theScale.x *= -1;
+        //transform.localScale = theScale;
+        //isFacingRight = false;
     }
 }
