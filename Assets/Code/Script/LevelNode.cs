@@ -45,6 +45,6 @@ public class LevelNode : MonoBehaviour
 
         // Add the click event via code so you don't have to do it in the Inspector
         nodeButton.onClick.RemoveAllListeners();
-        nodeButton.onClick.AddListener(() => LevelPanelManager.Instance.LoadLevelScene(levelID));
+        nodeButton.onClick.AddListener(() => LevelPanelManager.Instance.ShowLevelDetails(levelID));
     }
 }

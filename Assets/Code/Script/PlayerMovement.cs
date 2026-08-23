@@ -3,6 +3,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] private Animator _animator;
+
     private bool isFacingRight = true;
     public float MoveSpeed = 5f;
     private Vector2 Movement;
@@ -35,12 +37,19 @@ public class PlayerMovement : MonoBehaviour
         Movement.y = MoveY * MoveSpeed * Time.deltaTime;
 
         Movement = new Vector2(Movement.x, Movement.y).normalized;
-        if (Movement.x > 0 )
-            //Flip();
+
+        bool isMoving = (MoveX != 0f || MoveY != 0f);
+        _animator.SetBool("isRunning", isMoving);
+
+        // 4. Flip Sprite based on horizontal input only
+        if (MoveX > 0f)
+        {
             sr.flipX = false;
-        else if (Movement.x < 0)
-            //Flip();
+        }
+        else if (MoveX < 0f)
+        {
             sr.flipX = true;
+        }
         //rb.linearVelocity = Movement;
         //rb.MovePosition(Movement);// = Movement;
     }

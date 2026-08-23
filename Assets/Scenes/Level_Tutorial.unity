@@ -12475,6 +12475,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1488869410655296663, guid: 4cf726b495396164fbebc00c74a76f02, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1656739260}
     - target: {fileID: 2648759196076899920, guid: 4cf726b495396164fbebc00c74a76f02, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.58
@@ -12515,6 +12519,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3829765881545326046, guid: 4cf726b495396164fbebc00c74a76f02, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 08632502222ac0e45ad71f7ac6717ac8, type: 2}
     - target: {fileID: 5343378942430261153, guid: 4cf726b495396164fbebc00c74a76f02, type: 3}
       propertyPath: m_Name
       value: Player
@@ -13343,6 +13351,11 @@ MonoBehaviour:
 --- !u!4 &1656739259 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2648759196076899920, guid: 4cf726b495396164fbebc00c74a76f02, type: 3}
+  m_PrefabInstance: {fileID: 1328585413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1656739260 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3829765881545326046, guid: 4cf726b495396164fbebc00c74a76f02, type: 3}
   m_PrefabInstance: {fileID: 1328585413}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1689831603
