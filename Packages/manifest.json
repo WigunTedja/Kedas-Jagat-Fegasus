@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.seanba.super-tiled2unity": "file:SuperTiled2Unity-2.3.0/SuperTiled2Unity/Packages/com.seanba.super-tiled2unity",
     "com.unity.2d.animation": "15.1.0",
     "com.unity.2d.aseprite": "5.0.3",
     "com.unity.2d.psdimporter": "14.0.3",

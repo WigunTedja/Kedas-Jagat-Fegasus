@@ -67,6 +67,14 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
+        //Mobile
+        if (Touchscreen.current != null)
+        {
+            if (Touchscreen.current.wasUpdatedThisFrame)
+            {
+                nextPressed = true;
+            }
+        }
         // Mouse
         if (Mouse.current != null)
         {

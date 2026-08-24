@@ -93,7 +93,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.47, y: 0.47}
+  m_Size: {x: 0.49, y: 1.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -165,7 +165,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.49, y: 1.24}
-    newSize: {x: 0.47, y: 0.47}
+    newSize: {x: 0.49, y: 1.24}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -184,6 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6e320d7aecff2347914891cd5386f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  _animator: {fileID: 3829765881545326046}
   MoveSpeed: 5
 --- !u!114 &2593306132892188061
 MonoBehaviour:
@@ -233,7 +234,7 @@ Animator:
   m_GameObject: {fileID: 5343378942430261153}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 466127493914e9c4f8f4c5e837421217, type: 2}
+  m_Controller: {fileID: 9100000, guid: 08632502222ac0e45ad71f7ac6717ac8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

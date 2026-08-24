@@ -93,7 +93,7 @@ public class LevelPanelManager : MonoBehaviour
     {
         Debug.Log("Loading Level: " + levelID);
         // Add your scene loading logic here
-        // SceneManager.LoadScene("Level_" + levelID);
+         SceneManager.LoadScene("Level_" + levelID);
     }
 
     public void LoadMainMenu()
