@@ -1,3 +1,5 @@
 ﻿<Solution>
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="SuperTiled2Unity.csproj" />
+  <Project Path="Super Tiled2Unity Editor.csproj" />
 </Solution>
