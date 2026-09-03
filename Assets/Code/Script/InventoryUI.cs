@@ -17,10 +17,12 @@ public class InventoryUI: MonoBehaviour
     void Awake()
     {
         if (Instance == null) { Instance = this; }
-        else { Destroy(gameObject); }
+        else { gameObject.SetActive(false); }
     }
     void Start()
     {
+        //if (Instance == null) { Instance = this; }
+        //else { Destroy(gameObject); }
         inventoryPanel.SetActive(false);
         if(trashCollectorDropZoneUI != null)
         {

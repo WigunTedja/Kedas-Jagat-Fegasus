@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
@@ -19,9 +20,16 @@ public class LevelManager : MonoBehaviour
     private float currentTime;
     private bool isTimerRunning = false;
 
-    [Header("UI")]
+    [Header("UI Victory")]
     public GameObject victoryUI;
     public GameObject gameOverUI;
+    public TMPro.TextMeshProUGUI timeSpentText;
+
+    //[Header("UI")]
+    //public GameObject pauseUI;
+
+    [Header("UI Pause")]
+    public GameObject pauseUI;
 
     void Start()
     {
@@ -36,7 +44,7 @@ public class LevelManager : MonoBehaviour
         {
             currentTime -= Time.deltaTime;
         }
-        timerText.text = currentTime.ToString("F1") + "s";
+        timerText.text = currentTime.ToString("F1") + "d";
         if (currentTime < 0f)
         {
             GameOver();
@@ -55,8 +63,12 @@ public class LevelManager : MonoBehaviour
     private void LevelComplete()
     {
         isTimerRunning = false;
+        Time.timeScale = 0f;
+
         Debug.Log("Level Complete! All trash sorted.");
         Debug.Log("Time taken: " + levelTimer.ToString("F2") + " seconds.");
+        float timeSpent = levelTimer - currentTime;
+        timeSpentText.text = timeSpent.ToString("F1") + "d";
 
         int earnedStars = CalculateStars();
         Debug.Log("Stars Earned: " + earnedStars);
@@ -136,5 +148,37 @@ public class LevelManager : MonoBehaviour
         // 4. Save the updated profile back to the JSON file
         SaveSystem.SaveProfile(profile);
         Debug.Log("Progress saved successfully to: " + Application.persistentDataPath);
+    }
+
+    public void PauseGame()
+    {
+        isTimerRunning = false; 
+        pauseUI.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public void ResumeGame()
+    {
+        pauseUI.SetActive(false);
+        Time.timeScale = 1f;
+        isTimerRunning = true; 
+    }
+
+    public void GoToLevelPanel()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Level_Panel");
+    }
+
+    public void RetryLevel()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void FinishLevel()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Level_panel");
     }
 }

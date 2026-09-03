@@ -64,10 +64,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
   timerText: {fileID: 0}
-  currentLevelID: 0
+  currentLevelID: 1
   timeForThreeStars: 30
   timeForTwoStars: 60
   totalTrashInLevel: 0
-  levelTimer: 111
+  levelTimer: 300
   victoryUI: {fileID: 0}
   gameOverUI: {fileID: 0}

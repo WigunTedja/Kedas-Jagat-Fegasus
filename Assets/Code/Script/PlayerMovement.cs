@@ -5,7 +5,9 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
 
-    private bool isFacingRight = true;
+    public MobileJoystick mobileJoystick;
+
+    //private bool isFacingRight = true;
     public float MoveSpeed = 5f;
     private Vector2 Movement;
     private Rigidbody2D rb;
@@ -16,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        //rb.interpolation();
     }
 
     // Update is called once per frame
@@ -24,6 +25,12 @@ public class PlayerMovement : MonoBehaviour
     {
         float MoveX = 0f;
         float MoveY = 0f;
+
+        if (mobileJoystick != null && mobileJoystick.gameObject.activeInHierarchy)
+        {
+            MoveX = mobileJoystick.InputVector.x;
+            MoveY = mobileJoystick.InputVector.y;
+        }
 
         if (Keyboard.current != null)
         {
@@ -40,8 +47,12 @@ public class PlayerMovement : MonoBehaviour
 
         bool isMoving = (MoveX != 0f || MoveY != 0f);
         _animator.SetBool("isRunning", isMoving);
+        //if(Keyboard.current.eKey.isPressed)
+        //{
+        //    _animator.SetTrigger("isInteracting");
+        //    //_animator.ResetTrigger("isInteracting");
+        //}
 
-        // 4. Flip Sprite based on horizontal input only
         if (MoveX > 0f)
         {
             sr.flipX = false;

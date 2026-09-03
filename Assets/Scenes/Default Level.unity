@@ -651,7 +651,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
 --- !u!1 &363527123
@@ -855,8 +855,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MobileJoystick
   joystickKnob: {fileID: 335171091}
-  <InputVector>k__BackingField: {x: 0, y: 0}
-  maxRadius: 0
 --- !u!212 &556417877
 SpriteRenderer:
   serializedVersion: 3
@@ -914,7 +912,7 @@ SpriteRenderer:
   m_Size: {x: 2.22, y: 2.22}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
 --- !u!1 &574666916 stripped
@@ -1307,10 +1305,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95f4a92bb712506428351df3fbfc264c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
-  dialoguePanel: {fileID: 0}
-  speakerNameText: {fileID: 0}
-  dialogueText: {fileID: 0}
-  portraitImage: {fileID: 0}
+  dialoguePanel: {fileID: 1896377671}
+  speakerNameText: {fileID: 1896377669}
+  dialogueText: {fileID: 1896377668}
+  portraitImage: {fileID: 1896377670}
   typingSpeed: 0.03
 --- !u!4 &847375872
 Transform:
@@ -3085,10 +3083,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2485904228660042950, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.5300293
-      objectReference: {fileID: 0}
     - target: {fileID: 2683447422587889322, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3117,14 +3111,6 @@ PrefabInstance:
       propertyPath: levelManager
       value: 
       objectReference: {fileID: 1775290975}
-    - target: {fileID: 6349103129239352383, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 3.040039
-      objectReference: {fileID: 0}
-    - target: {fileID: 6349103129239352383, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -13.109985
-      objectReference: {fileID: 0}
     - target: {fileID: 6701416383539001904, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
       propertyPath: m_Name
       value: Pohon 1
@@ -3197,7 +3183,7 @@ PrefabInstance:
     - {fileID: 6701416383539001904, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1627890177403082252, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
-      insertIndex: -1
+      insertIndex: 10
       addedObject: {fileID: 672472545}
     - targetCorrespondingSourceObject: {fileID: 7972963040975763840, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
       insertIndex: -1
@@ -3213,6 +3199,44 @@ PrefabInstance:
 --- !u!224 &1896377667 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1627890177403082252, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
+  m_PrefabInstance: {fileID: 1896377666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1896377668 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2862401448867221475, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
+  m_PrefabInstance: {fileID: 1896377666}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &1896377669 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2319340839819634182, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
+  m_PrefabInstance: {fileID: 1896377666}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &1896377670 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3872937557005861568, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
+  m_PrefabInstance: {fileID: 1896377666}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!1 &1896377671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7669195256221015071, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
   m_PrefabInstance: {fileID: 1896377666}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1896377672 stripped

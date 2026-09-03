@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerInteraction : MonoBehaviour
 {
+    [SerializeField] private Animator _animator;
     private GameObject objectInRange;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,12 +35,26 @@ public class PlayerInteraction : MonoBehaviour
         if (Keyboard.current != null)
         {
             if (Keyboard.current.eKey.isPressed && objectInRange != null){
-                IInteractable interactable = objectInRange.GetComponent<IInteractable>();
-                if (interactable != null)
-                {
-                    interactable.Interact(this.gameObject);
-                }
+                PerformInteraction();
             }
+        }
+    }
+
+    public void OnMobileInteractButtonPressed()
+    {
+        if (objectInRange != null)
+        {
+            PerformInteraction();
+        }
+    }
+
+    private void PerformInteraction()
+    {
+        IInteractable interactable = objectInRange.GetComponent<IInteractable>();
+        if (interactable != null)
+        {
+            _animator.SetTrigger("isInteracting");
+            interactable.Interact(this.gameObject); 
         }
     }
 }

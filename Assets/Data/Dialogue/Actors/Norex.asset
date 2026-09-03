@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Norex
   m_EditorClassIdentifier: Assembly-CSharp::ActorSO
   actorName: Norex
-  portrait: {fileID: 0}
+  portrait: {fileID: -5456482552849360616, guid: 07c7217b8c93fb445815dc1e32108bfa, type: 3}

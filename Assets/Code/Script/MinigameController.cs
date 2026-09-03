@@ -35,8 +35,9 @@ public class MinigameController : MonoBehaviour
         GameObject targetObject = minigamePanels[minigameNumber];
 
         targetObject.SetActive(true);
-        targetObject.transform.position = playerTransform.position;
-        Time.timeScale = 0f;
+        //targetObject.transform.position = playerTransform.position;
+        //targetObject.transform.SetParent(FindAnyObjectByType<Camera>().transform); //= FindAnyObjectByType<Camera>().transform;
+        //Time.timeScale = 0f;
     }
 
     // Dipanggil oleh objek Kunci saat berhasil didapatkan
