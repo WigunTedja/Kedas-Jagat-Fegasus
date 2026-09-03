@@ -20,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         float MoveX = 0f;
@@ -47,6 +46,15 @@ public class PlayerMovement : MonoBehaviour
 
         bool isMoving = (MoveX != 0f || MoveY != 0f);
         _animator.SetBool("isRunning", isMoving);
+
+        if (isMoving)
+        {
+            AudioManager.Instance.StartWalking();
+        }
+        else
+        {
+            AudioManager.Instance.StopWalking();
+        }
         //if(Keyboard.current.eKey.isPressed)
         //{
         //    _animator.SetTrigger("isInteracting");

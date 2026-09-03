@@ -54,7 +54,8 @@ public class PlayerInteraction : MonoBehaviour
         if (interactable != null)
         {
             _animator.SetTrigger("isInteracting");
-            interactable.Interact(this.gameObject); 
+            interactable.Interact(this.gameObject);
+            AudioManager.Instance.PlayCollectSFX();
         }
     }
 }

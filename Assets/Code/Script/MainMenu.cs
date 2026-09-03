@@ -52,15 +52,21 @@ public class MainMenu : MonoBehaviour
     public void OnSFXVolumeChanged(float volume)
     {
         PlayerPrefs.SetFloat("SFXVolume", volume);
-        // TODO: Hubungkan dengan AudioMixer atau AudioSource untuk efek suara di sini
-        Debug.Log("SFX Volume diubah ke: " + volume);
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.UpdateSFXVolume(volume);
+        }
     }
 
     public void OnMusicVolumeChanged(float volume)
     {
         PlayerPrefs.SetFloat("MusicVolume", volume);
-        // TODO: Hubungkan dengan AudioMixer atau AudioSource untuk musik di sini
-        Debug.Log("Music Volume diubah ke: " + volume);
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.UpdateMusicVolume(volume);
+        }
     }
 
     public void OnMobileUIToggled(bool isMobile)
