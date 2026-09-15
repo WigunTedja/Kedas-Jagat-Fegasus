@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PlasticBottleTrashData
   m_EditorClassIdentifier: Assembly-CSharp::Item
   ItemName: Sampah Botol Plastik
-  icon: {fileID: -3407239678845404903, guid: e45adc00e8a395c49b71deed64447b92, type: 3}
+  icon: {fileID: 1199487586480467452, guid: ab73c13171a7ae742951912cd6ff3bfa, type: 3}
   description: Sampah Anorganik
   category: 2

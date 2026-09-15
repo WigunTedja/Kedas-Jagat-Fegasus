@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0546702179a4bf64ca6a9fd20331aa75, type: 3}
-  m_Name: BatteryTrashData
+  m_Name: RokokTrashData
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  ItemName: Sampah Baterai
-  icon: {fileID: 586989971157487990, guid: 66d5e6cb13e030845a8ad9baf8f4b9a6, type: 3}
+  ItemName: Sampah Rokok
+  icon: {fileID: 995480978497335412, guid: 9288a4b2d8b2cad48b1061aecc08529e, type: 3}
   description: Sampah B3
   category: 3

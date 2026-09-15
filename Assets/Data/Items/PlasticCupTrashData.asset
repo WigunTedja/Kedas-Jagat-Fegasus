@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0546702179a4bf64ca6a9fd20331aa75, type: 3}
-  m_Name: BatteryTrashData
+  m_Name: PlasticCupTrashData
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  ItemName: Sampah Baterai
-  icon: {fileID: 586989971157487990, guid: 66d5e6cb13e030845a8ad9baf8f4b9a6, type: 3}
-  description: Sampah B3
-  category: 3
+  ItemName: Sampah Cup Plastik
+  icon: {fileID: -7531767418012594265, guid: 6dc1fd081387f5145b38ab6b79e813cc, type: 3}
+  description: Sampah Anorganik
+  category: 2

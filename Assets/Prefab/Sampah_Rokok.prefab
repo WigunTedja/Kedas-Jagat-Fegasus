@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2377617776889243152}
   - component: {fileID: 1506841659328085411}
   m_Layer: 0
-  m_Name: Sampah_Baterai
+  m_Name: Sampah_Rokok
   m_TagString: Trash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.18, y: -5.33, z: 0}
-  m_LocalScale: {x: 0.19, y: 0.19, z: 0.19}
+  m_LocalScale: {x: 0.17, y: 0.17, z: 0.17}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 586989971157487990, guid: 66d5e6cb13e030845a8ad9baf8f4b9a6, type: 3}
+  m_Sprite: {fileID: 995480978497335412, guid: 9288a4b2d8b2cad48b1061aecc08529e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,17 +128,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.009599745, y: 0.027704954}
+  m_Offset: {x: -0.029839396, y: -0.014802933}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.22, y: 4.83}
+    oldSize: {x: 4.6, y: 5}
     newSize: {x: 1.3, y: 1.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.3135262, y: 5.1564565}
+  m_Size: {x: 4.730522, y: 5.0714407}
   m_EdgeRadius: 0
 --- !u!114 &1506841659328085411
 MonoBehaviour:
@@ -152,4 +152,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4dbdee10c306f14997c94aed4c1cc91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemPickUp
-  ItemData: {fileID: 11400000, guid: e35cd04ceb2de2c4fb67fe3049a066d0, type: 2}
+  ItemData: {fileID: 11400000, guid: 66b3de7464db8664d986f24bc890a64a, type: 2}
