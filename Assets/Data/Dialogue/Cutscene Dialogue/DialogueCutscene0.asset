@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f3d662dca30a9b46a9e63512e30f246, type: 3}
+  m_Name: DialogueCutscene0
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Wahai manusia... apa yang telah kalian perbuat?
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Alam telah memberikan kalian sumber daya untuk dimanfaatkan.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Namun sebagai balasannya, kalian justru merusak dan mengotorinya.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Aku hanya bisa berharap... masih ada manusia yang peduli terhadap alam
+      ini.
