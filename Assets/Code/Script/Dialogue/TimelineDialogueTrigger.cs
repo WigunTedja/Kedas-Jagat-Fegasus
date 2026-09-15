@@ -1,15 +1,30 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class TimelineDialogueTrigger : MonoBehaviour
 {
+    // =========================================================
+    // DIALOGUE
+    // =========================================================
+
     [Header("Dialogue")]
     [SerializeField]
     private DialogueSO dialogue;
 
+
+    // =========================================================
+    // AUTO START
+    // =========================================================
+
     [Header("Auto Start")]
-    [Tooltip("Jika aktif, dialogue akan otomatis muncul ketika scene dimulai.")]
+
+    [Tooltip("Jika aktif, dialogue otomatis muncul ketika scene dimulai.")]
     [SerializeField]
     private bool playOnSceneStart = false;
 
@@ -17,8 +32,14 @@ public class TimelineDialogueTrigger : MonoBehaviour
     [SerializeField]
     private float startDelay = 0f;
 
+
+    // =========================================================
+    // TIMELINE
+    // =========================================================
+
     [Header("Timeline")]
-    [Tooltip("Boleh dikosongkan jika dialogue tidak berhubungan dengan Timeline.")]
+
+    [Tooltip("Boleh dikosongkan jika dialogue tidak menggunakan Timeline.")]
     [SerializeField]
     private PlayableDirector director;
 
@@ -26,16 +47,51 @@ public class TimelineDialogueTrigger : MonoBehaviour
     [SerializeField]
     private bool pauseTimelineDuringDialogue = true;
 
+
+    // =========================================================
+    // SCENE TRANSITION
+    // =========================================================
+
+    [Header("Scene Transition")]
+
+    [Tooltip("Jika aktif, dialogue selesai akan pindah ke scene tujuan.")]
+    [SerializeField]
+    private bool goToSceneOnFinish = false;
+
+
+#if UNITY_EDITOR
+
+    [Tooltip("Pilih Scene tujuan.")]
+    [SerializeField]
+    private SceneAsset targetScene;
+
+#endif
+
+
+    [HideInInspector]
+    [SerializeField]
+    private string targetSceneName;
+
+
+    // =========================================================
+    // INTERNAL
+    // =========================================================
+
     private bool waitingForDialogue = false;
+
+
+    // =========================================================
+    // START
+    // =========================================================
 
     private void Start()
     {
-        // Hanya otomatis jika pilihan ini diaktifkan.
         if (playOnSceneStart)
         {
             StartCoroutine(StartDialogueWithDelay());
         }
     }
+
 
     private IEnumerator StartDialogueWithDelay()
     {
@@ -47,11 +103,16 @@ public class TimelineDialogueTrigger : MonoBehaviour
         PlayDialogue();
     }
 
-    // Fungsi ini tetap bisa dipanggil dari Timeline Signal.
+
+    // =========================================================
+    // PLAY DIALOGUE
+    // =========================================================
+
     public void PlayDialogue()
     {
         if (waitingForDialogue)
             return;
+
 
         if (dialogue == null)
         {
@@ -62,6 +123,7 @@ public class TimelineDialogueTrigger : MonoBehaviour
             return;
         }
 
+
         if (DialogueManager.Instance == null)
         {
             Debug.LogError(
@@ -71,7 +133,7 @@ public class TimelineDialogueTrigger : MonoBehaviour
             return;
         }
 
-        // Jangan mulai dialogue baru jika sedang ada dialogue.
+
         if (DialogueManager.Instance.IsDialogueActive)
         {
             Debug.LogWarning(
@@ -81,19 +143,30 @@ public class TimelineDialogueTrigger : MonoBehaviour
             return;
         }
 
+
         waitingForDialogue = true;
 
-        // Pause Timeline jika memang menggunakan Timeline.
+
+        // Pause Timeline
         if (pauseTimelineDuringDialogue && director != null)
         {
             director.Pause();
         }
 
+
+        // Dengarkan event dialogue selesai
         DialogueManager.Instance.OnDialogueFinished +=
             HandleDialogueFinished;
 
+
+        // Mulai dialogue
         DialogueManager.Instance.StartDialogue(dialogue);
     }
+
+
+    // =========================================================
+    // DIALOGUE FINISHED
+    // =========================================================
 
     private void HandleDialogueFinished()
     {
@@ -103,14 +176,90 @@ public class TimelineDialogueTrigger : MonoBehaviour
                 HandleDialogueFinished;
         }
 
+
         waitingForDialogue = false;
 
-        // Lanjutkan Timeline.
+
+        Debug.Log("Dialogue selesai.");
+
+
+        // Jika harus pindah scene
+        if (goToSceneOnFinish)
+        {
+            LoadTargetScene();
+            return;
+        }
+
+
+        // Kalau tidak pindah scene,
+        // lanjutkan Timeline
         if (pauseTimelineDuringDialogue && director != null)
         {
             director.Play();
         }
     }
+
+
+    // =========================================================
+    // LOAD SCENE
+    // =========================================================
+
+    private void LoadTargetScene()
+    {
+        if (string.IsNullOrEmpty(targetSceneName))
+        {
+            Debug.LogError(
+                "Target Scene belum dipilih!"
+            );
+
+            return;
+        }
+
+
+        if (!Application.CanStreamedLevelBeLoaded(targetSceneName))
+        {
+            Debug.LogError(
+                $"Scene '{targetSceneName}' tidak dapat dibuka. " +
+                "Pastikan Scene sudah dimasukkan ke Build Profiles > Scene List."
+            );
+
+            return;
+        }
+
+
+        Debug.Log(
+            $"Pindah ke Scene: {targetSceneName}"
+        );
+
+
+        SceneManager.LoadScene(targetSceneName);
+    }
+
+
+    // =========================================================
+    // EDITOR
+    // =========================================================
+
+#if UNITY_EDITOR
+
+    private void OnValidate()
+    {
+        if (targetScene != null)
+        {
+            targetSceneName = targetScene.name;
+        }
+        else
+        {
+            targetSceneName = "";
+        }
+    }
+
+#endif
+
+
+    // =========================================================
+    // CLEAN UP
+    // =========================================================
 
     private void OnDisable()
     {

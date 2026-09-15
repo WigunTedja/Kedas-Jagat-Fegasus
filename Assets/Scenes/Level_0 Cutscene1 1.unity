@@ -18898,6 +18898,9 @@ MonoBehaviour:
   startDelay: 14
   director: {fileID: 0}
   pauseTimelineDuringDialogue: 1
+  goToSceneOnFinish: 1
+  targetScene: {fileID: 102900000, guid: 99b636e21f38fc64db83fdc43eb1f7c9, type: 3}
+  targetSceneName: Level_0
 --- !u!4 &1525295491
 Transform:
   m_ObjectHideFlags: 0
