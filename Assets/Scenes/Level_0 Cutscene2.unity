@@ -119,6 +119,104 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &27502420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 27502421}
+  - component: {fileID: 27502424}
+  - component: {fileID: 27502423}
+  - component: {fileID: 27502422}
+  m_Layer: 5
+  m_Name: Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &27502421
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27502420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 465902573}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &27502422
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27502420}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bb48d6ef32010d5418f65cd5b11a7a73, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &27502423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27502420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &27502424
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27502420}
+  m_CullTransparentMesh: 1
 --- !u!1 &34572254
 GameObject:
   m_ObjectHideFlags: 0
@@ -16020,6 +16118,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 766081334}
+  - {fileID: 27502421}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -17144,14 +17243,14 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -3938047032557560841, guid: 4e41a96a587085c4aab23624f3720136, type: 2}
-    value: {fileID: 1888989209}
-  - key: {fileID: -5157625741268579428, guid: 4e41a96a587085c4aab23624f3720136, type: 2}
-    value: {fileID: 300566498}
   - key: {fileID: -3652937764712048828, guid: 4e41a96a587085c4aab23624f3720136, type: 2}
     value: {fileID: 1888989209}
   - key: {fileID: -4106823797425079126, guid: 4e41a96a587085c4aab23624f3720136, type: 2}
     value: {fileID: 300566498}
+  - key: {fileID: 7864211921519670406, guid: 4e41a96a587085c4aab23624f3720136, type: 2}
+    value: {fileID: 300566498}
+  - key: {fileID: 5710420408869872981, guid: 4e41a96a587085c4aab23624f3720136, type: 2}
+    value: {fileID: 1888989209}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &869746950
@@ -18939,9 +19038,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d08a01a555c0744ac95f9331522349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TimelineDialogueTrigger
-  dialogue: {fileID: 11400000, guid: 6de930600d10abc4daca1ecae0349aa0, type: 2}
+  dialogue: {fileID: 11400000, guid: e24a5d12977fcfa4ebd1ca1ff8a6427a, type: 2}
   playOnSceneStart: 1
-  startDelay: 14
+  startDelay: 4
   director: {fileID: 0}
   pauseTimelineDuringDialogue: 1
   goToSceneOnFinish: 1

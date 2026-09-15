@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f3d662dca30a9b46a9e63512e30f246, type: 3}
+  m_Name: DIalogueCutscne0-2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Anak muda...
+  - speaker: {fileID: 11400000, guid: ad0ab1ebc40b41b4192e674dea27bd6f, type: 2}
+    text: Kamu siapa? Dan apa yang terjadi dengan daerah ini?
+  - speaker: {fileID: 11400000, guid: ad0ab1ebc40b41b4192e674dea27bd6f, type: 2}
+    text: Kenapa ada begitu banyak sampah di mana-mana?
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Inilah yang terjadi ketika manusia tidak peduli dengan tempat yang mereka
+      pijak.
+  - speaker: {fileID: 11400000, guid: ad0ab1ebc40b41b4192e674dea27bd6f, type: 2}
+    text: Aku tidak bisa membiarkan ini begitu saja
+  - speaker: {fileID: 11400000, guid: ad0ab1ebc40b41b4192e674dea27bd6f, type: 2}
+    text: Aku harus membersihkan daerah ini.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Sangat mulia niatmu, anak muda.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Kalau begitu, aku akan membimbingmu.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Pertama, kumpulkanlah berbagai sampah yang berserakan di daerah ini.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Setelah itu, carilah tempat sampah dan pilah sampah tersebut sesuai dengan
+      kategorinya.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Warna hijau untuk sampah organik.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Warna kuning untuk sampah anorganik
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Dan warna hijau untuk sampah B3
+  - speaker: {fileID: 11400000, guid: ad0ab1ebc40b41b4192e674dea27bd6f, type: 2}
+    text: Organik? Anorganik? Apa itu?
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Dasar anak muda jaman sekarang.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Mereka bahkan tidak dapat membedakan jenis sampah.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Aku akan memberikanmu kekuatan untuk melihat warna sampah.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Sesuaikan saja cahaya yang bersinar dari sampah.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Dan masukkan ke tempat sampah yang memiliki warna yang sama.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Perlahan-lahan kau akan dapat membedakan sampah tanpa bantuanku.
+  - speaker: {fileID: 11400000, guid: b408d99b6d9460441b33c8dd9ab8829f, type: 2}
+    text: Selamat berjuang, anak muda.
+  - speaker: {fileID: 11400000, guid: ad0ab1ebc40b41b4192e674dea27bd6f, type: 2}
+    text: Baik. Akan segera aku lakukan.
