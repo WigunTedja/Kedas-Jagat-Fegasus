@@ -748,6 +748,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.510807, y: 0.18421501}
   m_EdgeRadius: 0
+--- !u!114 &390413196 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6474745637472488984, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
+  m_PrefabInstance: {fileID: 1896377666}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &435981670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2105,6 +2116,9 @@ MonoBehaviour:
   startDelay: 1
   director: {fileID: 0}
   pauseTimelineDuringDialogue: 1
+  goToSceneOnFinish: 0
+  targetScene: {fileID: 0}
+  targetSceneName: 
 --- !u!4 &1301085458
 Transform:
   m_ObjectHideFlags: 0
@@ -2120,6 +2134,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1352955772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1013979005541328418, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
+  m_PrefabInstance: {fileID: 1896377666}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1399696405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2800,19 +2819,42 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7754005849226710269, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1775290977}
   m_SourcePrefab: {fileID: 100100000, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
 --- !u!114 &1775290975 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7173779289601978438, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
   m_PrefabInstance: {fileID: 1775290974}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1775290976}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b71a3f244bf5de449a43a25ed4bd7cce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
+--- !u!1 &1775290976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7754005849226710269, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
+  m_PrefabInstance: {fileID: 1775290974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1775290977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775290976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3e517d0318999442bab96d9bb8ac041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelStartManager
+  countdownText: {fileID: 390413196}
+  countdownPanel: {fileID: 1352955772}
+  startCountdownTime: 3
 --- !u!1 &1796082015
 GameObject:
   m_ObjectHideFlags: 0
