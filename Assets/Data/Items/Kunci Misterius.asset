@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Kunci Misterius
   m_EditorClassIdentifier: Assembly-CSharp::Item
   ItemName: Kunci Misterius
-  icon: {fileID: 1675816393066774137, guid: c6571fdbfeb4bdc4783224763c7c0541, type: 3}
+  icon: {fileID: 1095141833252711340, guid: fc361583d775dc34e89958ca582f0f4c, type: 3}
   description: Digunakan untuk membuka gerbang
   category: 4

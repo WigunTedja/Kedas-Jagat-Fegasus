@@ -8,14 +8,15 @@ public class PlayerMovement : MonoBehaviour
     public MobileJoystick mobileJoystick;
 
     //private bool isFacingRight = true;
-    public float MoveSpeed = 5f;
+    public float baseMoveSpeed = 5f;
+    public float MoveSpeed;
     private Vector2 Movement;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        MoveSpeed = baseMoveSpeed;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
     }

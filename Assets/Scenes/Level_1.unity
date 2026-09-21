@@ -1965,6 +1965,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7789200487585187441, guid: f20b890efadbe2746982135ad1a12b5f, type: 3}
   m_PrefabInstance: {fileID: 1819732519}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &487864593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7754005849226710269, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
+  m_PrefabInstance: {fileID: 1208682030}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &498687744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2671,6 +2676,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7173779289601978438, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
   m_PrefabInstance: {fileID: 1208682030}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487864593}
   m_GameObject: {fileID: 38009007}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2683,12 +2689,15 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487864593}
   m_GameObject: {fileID: 38009007}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3e517d0318999442bab96d9bb8ac041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelStartManager
+  countdownText: {fileID: 687461911}
+  countdownPanel: {fileID: 738457259}
   countdownText: {fileID: 64195768}
   countdownPanel: {fileID: 1006501422}
   startCountdownTime: 4
@@ -2964,6 +2973,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f269e012c36e8d469e9b1af318ed9ee, type: 3}
+--- !u!114 &687461911 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6474745637472488984, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
+  m_PrefabInstance: {fileID: 2413625820103579811}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!4 &691180063 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5100290401949164300, guid: 98dfd90d553c1394e967f90c35dc1390, type: 3}
@@ -3191,6 +3211,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98dfd90d553c1394e967f90c35dc1390, type: 3}
+--- !u!1 &738457259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1013979005541328418, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
+  m_PrefabInstance: {fileID: 2413625820103579811}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &750747485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13806,6 +13831,10 @@ PrefabInstance:
       propertyPath: inventory
       value: 
       objectReference: {fileID: 897070290}
+    - target: {fileID: 1013979005541328418, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1627890177403082252, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -13955,6 +13984,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1398388588}
     - target: {fileID: 7669195256221015071, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7807465351820312075, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -14431,6 +14464,7 @@ SceneRoots:
   - {fileID: 1208682030}
   - {fileID: 9159166015578720930}
   - {fileID: 4950141576196066255}
+  - {fileID: 2413625820103579811}
   - {fileID: 223520849}
   - {fileID: 1358776271}
   - {fileID: 619394802}
@@ -14455,5 +14489,4 @@ SceneRoots:
   - {fileID: 1525820693}
   - {fileID: 1307443357}
   - {fileID: 188151328}
-  - {fileID: 2413625820103579811}
   - {fileID: 1806623396}
