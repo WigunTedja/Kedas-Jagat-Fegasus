@@ -15,8 +15,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_0 Cutscene2.unity
     guid: dcce3cfc9fcbbec418406908181a6e5a
   - enabled: 1
+    path: Assets/Scenes/Level_Panel.unity
+    guid: daf9b8c6c4b993440955e141a9dee8ab
+  - enabled: 1
     path: Assets/Scenes/Level_0.unity
     guid: 99b636e21f38fc64db83fdc43eb1f7c9
+  - enabled: 1
+    path: Assets/Scenes/Game_Intro.unity
+    guid: 63ecb97060c9d774ba6cd2ed05731f34
+  - enabled: 1
+    path: Assets/Scenes/Level_1.unity
+    guid: 5c88e1710b7038b4697d7672d5be0e1b
+  - enabled: 1
+    path: Assets/Scenes/Level_2.unity
+    guid: 3e02176035ce4e14c89ef71fe017fc9e
+  - enabled: 1
+    path: Assets/Scenes/Level_3 11.unity
+    guid: 9438c59951619564fb6ac6f309ac741b
   - enabled: 0
     path: Assets/Scenes/Gudang/Level_1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
