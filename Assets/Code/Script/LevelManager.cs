@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    public static LevelManager Instance { get; private set; }
     public TMPro.TextMeshProUGUI timerText;
 
     [Header("Level Identity")]
@@ -30,6 +31,18 @@ public class LevelManager : MonoBehaviour
 
     [Header("UI Pause")]
     public GameObject pauseUI;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start()
     {
