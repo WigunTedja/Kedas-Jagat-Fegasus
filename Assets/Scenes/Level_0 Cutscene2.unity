@@ -17488,8 +17488,8 @@ MonoBehaviour:
     di Inspector pada komponen, lalu di Inspector pada komponen, lalu di Inspector
     pada
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ec4bf4cf6a603e845aba405c94dddfab, type: 2}
-  m_sharedMaterial: {fileID: -7165828721520565144, guid: ec4bf4cf6a603e845aba405c94dddfab, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18092,8 +18092,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Speaker
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ec4bf4cf6a603e845aba405c94dddfab, type: 2}
-  m_sharedMaterial: {fileID: -7165828721520565144, guid: ec4bf4cf6a603e845aba405c94dddfab, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20980,6 +20980,10 @@ PrefabInstance:
     - target: {fileID: 7754005849226710269, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
       propertyPath: m_Name
       value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8365624189431966671, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9006998976481997023, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
       propertyPath: FinalGateObject

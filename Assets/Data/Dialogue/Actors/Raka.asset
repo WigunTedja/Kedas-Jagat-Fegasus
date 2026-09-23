@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Raka
   m_EditorClassIdentifier: Assembly-CSharp::ActorSO
   actorName: Raka
-  portrait: {fileID: -5629509173344684855, guid: 02fd3859248023f419311835de82a68a, type: 3}
+  portrait: {fileID: 5314784267325160479, guid: 10fd8108a52bff147b82b050de9bd4fe, type: 3}
