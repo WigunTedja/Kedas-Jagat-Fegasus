@@ -187,6 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   _animator: {fileID: 3829765881545326046}
   mobileJoystick: {fileID: 0}
+  baseMoveSpeed: 5
   MoveSpeed: 5
 --- !u!114 &2593306132892188061
 MonoBehaviour:
@@ -215,6 +216,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
   _animator: {fileID: 3829765881545326046}
+  interactDuration: 0.5
+  playerMovementScript: {fileID: 1488869410655296663}
 --- !u!114 &5807201898172633409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,7 +264,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: df1f13ff205d4864982aa2fbc7eacfb3, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

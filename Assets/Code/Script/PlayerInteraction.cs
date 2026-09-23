@@ -1,19 +1,25 @@
+using System.Collections; // Tambahkan ini untuk Coroutine
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerInteraction : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
+
+    // Tambahkan durasi animasi dan referensi ke script pergerakan
+    [SerializeField] private float interactDuration = 0.5f;
+    [SerializeField] private MonoBehaviour playerMovementScript;
+
     private GameObject objectInRange;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private bool isCurrentlyInteracting = false; // Mencegah spam interaksi
+
     void Start()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Check if the thing we just bumped into signed the contract
         if (collision.GetComponent<IInteractable>() != null)
         {
             objectInRange = collision.gameObject;
@@ -22,19 +28,18 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        // If we walk away from the object we were tracking, clear it out
         if (collision.gameObject == objectInRange)
         {
             objectInRange = null;
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Keyboard.current != null)
         {
-            if (Keyboard.current.eKey.isPressed && objectInRange != null){
+            if (Keyboard.current.eKey.isPressed && objectInRange != null && !isCurrentlyInteracting)
+            {
                 PerformInteraction();
             }
         }
@@ -42,7 +47,7 @@ public class PlayerInteraction : MonoBehaviour
 
     public void OnMobileInteractButtonPressed()
     {
-        if (objectInRange != null)
+        if (objectInRange != null && !isCurrentlyInteracting)
         {
             PerformInteraction();
         }
@@ -53,9 +58,41 @@ public class PlayerInteraction : MonoBehaviour
         IInteractable interactable = objectInRange.GetComponent<IInteractable>();
         if (interactable != null)
         {
-            _animator.SetTrigger("isInteracting");
-            interactable.Interact(this.gameObject);
-            AudioManager.Instance.PlayCollectSFX();
+            StartCoroutine(InteractRoutine(interactable));
         }
+    }
+
+    private IEnumerator InteractRoutine(IInteractable interactable)
+    {
+        isCurrentlyInteracting = true;
+
+        // 1. Hentikan pergerakan
+        if (playerMovementScript != null)
+        {
+            playerMovementScript.enabled = false;
+        }
+
+        // Opsional: Jika menggunakan Rigidbody2D, paksa berhenti bergerak (hapus momentum)
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero; // Gunakan .velocity jika Unity versi lama
+        }
+
+        // 2. Jalankan interaksi & animasi
+        _animator.SetTrigger("isInteracting");
+        interactable.Interact(this.gameObject);
+        AudioManager.Instance.PlayCollectSFX();
+
+        // 3. Tunggu sampai animasi selesai
+        yield return new WaitForSeconds(interactDuration);
+
+        // 4. Kembalikan pergerakan
+        if (playerMovementScript != null)
+        {
+            playerMovementScript.enabled = true;
+        }
+
+        isCurrentlyInteracting = false;
     }
 }

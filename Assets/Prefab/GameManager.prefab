@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1701300739756319215}
   - component: {fileID: 9006998976481997023}
   - component: {fileID: 7173779289601978438}
+  - component: {fileID: 8365624189431966671}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameController
@@ -71,3 +72,20 @@ MonoBehaviour:
   levelTimer: 300
   victoryUI: {fileID: 0}
   gameOverUI: {fileID: 0}
+  timeSpentText: {fileID: 0}
+  pauseUI: {fileID: 0}
+--- !u!114 &8365624189431966671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7754005849226710269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3e517d0318999442bab96d9bb8ac041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelStartManager
+  countdownText: {fileID: 0}
+  countdownPanel: {fileID: 0}
+  startCountdownTime: 3
