@@ -21,7 +21,31 @@ MonoBehaviour:
   m_ActivePlatformGuid: 
   m_AdditionalPlatformBuildSettings: []
   m_OverrideGlobalSceneList: 1
-  m_Scenes: []
+  m_Scenes:
+  - m_enabled: 1
+    m_path: Assets/Scenes/MainMenu.unity
+    m_guid: b807b434266de6e4cabd1726b38b4755
+  - m_enabled: 1
+    m_path: Assets/Scenes/Level_Panel.unity
+    m_guid: daf9b8c6c4b993440955e141a9dee8ab
+  - m_enabled: 1
+    m_path: Assets/Scenes/Level_0 Cutscene1.unity
+    m_guid: bca46afeddf07374fad859ed9bdfe041
+  - m_enabled: 1
+    m_path: Assets/Scenes/Level_0 Cutscene2.unity
+    m_guid: dcce3cfc9fcbbec418406908181a6e5a
+  - m_enabled: 1
+    m_path: Assets/Scenes/Level_0.unity
+    m_guid: 99b636e21f38fc64db83fdc43eb1f7c9
+  - m_enabled: 1
+    m_path: Assets/Scenes/Level_1.unity
+    m_guid: 5c88e1710b7038b4697d7672d5be0e1b
+  - m_enabled: 1
+    m_path: Assets/Scenes/Level_2.unity
+    m_guid: 3e02176035ce4e14c89ef71fe017fc9e
+  - m_enabled: 1
+    m_path: Assets/Scenes/Level_3.unity
+    m_guid: 28eb9c7ef257ebf42b4c888e177f6c66
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:

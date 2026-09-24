@@ -230,7 +230,7 @@ public class TimelineDialogueTrigger : MonoBehaviour
         Debug.Log(
             $"Pindah ke Scene: {targetSceneName}"
         );
-
+        Time.timeScale = 1f;
 
         SceneManager.LoadScene(targetSceneName);
     }
