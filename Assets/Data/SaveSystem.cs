@@ -30,7 +30,7 @@ public static class SaveSystem
         PlayerProfile newProfile = new PlayerProfile();
 
         // Ensure Level 1 is unlocked by default for a new player
-        newProfile.levelProgress.Add(new LevelSaveData(1, true, 0));
+        newProfile.levelProgress.Add(new LevelSaveData(0, true, 0));
 
         return newProfile;
     }

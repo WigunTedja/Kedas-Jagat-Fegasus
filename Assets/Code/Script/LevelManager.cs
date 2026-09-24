@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
@@ -31,6 +32,9 @@ public class LevelManager : MonoBehaviour
 
     [Header("UI Pause")]
     public GameObject pauseUI;
+    public Image tutorialImageComponent; // Tempatkan GameObject "TutorialSlide" di sini
+    public Sprite[] tutorialSprites;     // Masukkan 2 gambar (sprite) tutorial kamu di sini
+    private int currentSlideIndex = 0;
 
     private void Awake()
     {
@@ -168,6 +172,20 @@ public class LevelManager : MonoBehaviour
         isTimerRunning = false; 
         pauseUI.SetActive(true);
         Time.timeScale = 0f;
+    }
+
+    public void TutorialSlide()
+    {
+        if (tutorialSprites.Length == 0 || tutorialImageComponent == null) return;
+
+        currentSlideIndex++;
+
+        if (currentSlideIndex >= tutorialSprites.Length)
+        {
+            currentSlideIndex = 0;
+        }
+
+        tutorialImageComponent.sprite = tutorialSprites[currentSlideIndex];
     }
 
     public void ResumeGame()
