@@ -20300,6 +20300,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8365624189431966671, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
+      propertyPath: countdownText
+      value: 
+      objectReference: {fileID: 1137994097}
+    - target: {fileID: 8365624189431966671, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
+      propertyPath: countdownPanel
+      value: 
+      objectReference: {fileID: 1899728744}
     - target: {fileID: 9006998976481997023, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
       propertyPath: FinalGateObject
       value: 

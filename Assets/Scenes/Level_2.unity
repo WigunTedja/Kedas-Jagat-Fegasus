@@ -12987,10 +12987,6 @@ PrefabInstance:
       propertyPath: minigameNumber
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4023645472567991546, guid: 96065ebfdf8731740bdcd386a1395edc, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4088001207482885870, guid: 96065ebfdf8731740bdcd386a1395edc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.72

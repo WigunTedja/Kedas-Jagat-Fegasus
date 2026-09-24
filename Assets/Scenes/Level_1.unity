@@ -2026,6 +2026,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1068990213904178796, guid: 7b7f28e3090edad4bbcd9067f4531bba, type: 3}
   m_PrefabInstance: {fileID: 1376689474}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &517349136 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4798473502577933195, guid: d58c16429dd9de247a5e3bdf21262159, type: 3}
+  m_PrefabInstance: {fileID: 2413625820103579811}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!20 &519420031 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 9046650903484686006, guid: 39b99f9d827b5354cb3f80fbefd94e1b, type: 3}
@@ -7355,6 +7366,22 @@ PrefabInstance:
       propertyPath: timeSpentText
       value: 
       objectReference: {fileID: 2413625820103579816}
+    - target: {fileID: 7173779289601978438, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
+      propertyPath: tutorialImageComponent
+      value: 
+      objectReference: {fileID: 517349136}
+    - target: {fileID: 7173779289601978438, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
+      propertyPath: tutorialSprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7173779289601978438, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
+      propertyPath: 'tutorialSprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8287486743416346105, guid: 54acc55f5e88fe94da200729e5a7897c, type: 3}
+    - target: {fileID: 7173779289601978438, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
+      propertyPath: 'tutorialSprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: -1482482065907046711, guid: 3984d4fec358706429bebd932dd0f90c, type: 3}
     - target: {fileID: 7754005849226710269, guid: 3a712a1c76ebb7c41bfeec54cfdb6ff8, type: 3}
       propertyPath: m_Name
       value: GameManager

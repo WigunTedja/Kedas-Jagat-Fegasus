@@ -91,6 +91,11 @@ public class LevelPanelManager : MonoBehaviour
     // The method the buttons will call to start the game
     public void LoadLevelScene(int levelID)
     {
+        if(levelID == 0)
+        {
+            SceneManager.LoadScene("Level_0 Cutscene1");
+            return;
+        }
         Debug.Log("Loading Level: " + levelID);
         // Add your scene loading logic here
          SceneManager.LoadScene("Level_" + levelID);
